@@ -1053,7 +1053,7 @@ body.dark .contact-method {
 .contact-social h3 {
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
-  color: var(--dark);
+  color: var(white);
 }
 
 .social-buttons {
@@ -1253,7 +1253,7 @@ body.dark .faq-question:hover {
   margin: 0 auto;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive Design */
@@ -1373,6 +1373,7 @@ body.dark .faq-question:hover {
   }
 
 }
+
 
 
 
