@@ -1251,9 +1251,9 @@ body.dark .faq-question:hover {
 .map-container {
   max-width: 250px;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive Design */
@@ -1373,6 +1373,7 @@ body.dark .faq-question:hover {
   }
 
 }
+
 
 
 
