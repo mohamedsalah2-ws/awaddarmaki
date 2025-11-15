@@ -1249,7 +1249,7 @@ body.dark .faq-question:hover {
 
 /* Map Section */
 .map-container {
-  max-width: 1200px;
+  max-width: 500px;
   margin: 0 auto;
   border-radius: 20px;
   overflow: hidden;
@@ -1373,4 +1373,5 @@ body.dark .faq-question:hover {
   }
 
 }
+
 
