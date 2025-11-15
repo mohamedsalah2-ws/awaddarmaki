@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عوض الدرمكي | تواصل معي</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="navbar">
+  <nav class="navbar">
+    <div class="logo">عوض الدرمكي</div>
+    <ul class="nav-links">
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="about.html">عنّي</a></li>
+      <li><a href="portfolio.html">الأعمال</a></li>
+      <li><a href="contact.html">تواصل</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Contact Hero -->
+<section class="contact-hero">
+  <div class="contact-hero-content">
+    <h1 class="fade-in">تواصل معي</h1>
+    <p class="fade-in">يسعدني التواصل معك والإجابة على استفساراتك</p>
+  </div>
+</section>
+
+<!-- Contact Content -->
+<section class="contact-section fade-in">
+  <div class="contact-container">
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>معلومات التواصل</h2>
+      <p>يمكنك التواصل معي عبر إحدى الطرق التالية، وسأكون سعيداً بالرد عليك في أقرب وقت ممكن.</p>
+      
+      <div class="contact-methods">
+        <div class="contact-method">
+          <div class="method-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="method-info">
+            <h3>البريد الإلكتروني</h3>
+            <a href="mailto:info@awadaldarmaki.com">info@awadaldarmaki.com</a>
+          </div>
+        </div>
+        
+        <div class="contact-method">
+          <div class="method-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="method-info">
+            <h3>الهاتف</h3>
+            <a href="tel:+971501234567">+971 50 123 4567</a>
+          </div>
+        </div>
+        
+        <div class="contact-method">
+          <div class="method-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="method-info">
+            <h3>الموقع</h3>
+            <p>الإمارات العربية المتحدة</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Social Media -->
+      <div class="contact-social">
+        <h3>تابعني على وسائل التواصل</h3>
+        <div class="social-buttons">
+          <a href="https://x.com/awadaldarmaki" target="_blank" class="social-btn twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.instagram.com/awadaldarmaki" target="_blank" class="social-btn instagram">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.youtube.com/results?search_query=عوض+الدرمكي" target="_blank" class="social-btn youtube">
+            <i class="fa-brands fa-youtube"></i>
+            <span>YouTube</span>
+          </a>
+          <a href="https://www.linkedin.com/in/awadaldarmaki" target="_blank" class="social-btn linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>أرسل رسالة</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">الاسم الكامل</label>
+          <input type="text" id="name" name="name" placeholder="أدخل اسمك الكامل" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">البريد الإلكتروني</label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">رقم الهاتف</label>
+          <input type="tel" id="phone" name="phone" placeholder="+971 50 123 4567">
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">الموضوع</label>
+          <select id="subject" name="subject" required>
+            <option value="">اختر الموضوع</option>
+            <option value="consultation">استشارة فردية</option>
+            <option value="lecture">محاضرة تحفيزية</option>
+            <option value="workshop">ورشة عمل</option>
+            <option value="collaboration">تعاون</option>
+            <option value="other">أخرى</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">الرسالة</label>
+          <textarea id="message" name="message" rows="6" placeholder="اكتب رسالتك هنا..." required></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-submit">
+          <i class="fas fa-paper-plane"></i>
+          إرسال الرسالة
+        </button>
+      </form>
+      
+      <div id="formMessage" class="form-message"></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section fade-in">
+  <h2>الأسئلة الشائعة</h2>
+  <div class="faq-container">
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>كيف يمكنني حجز استشارة فردية؟</h3>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="faq-answer">
+        <p>يمكنك حجز استشارة فردية من خلال التواصل معي عبر البريد الإلكتروني أو نموذج التواصل أعلاه. سأقوم بالرد عليك لتحديد موعد مناسب للجلسة.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>ما هي مدة الجلسة الاستشارية؟</h3>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="faq-answer">
+        <p>عادةً تتراوح مدة الجلسة الاستشارية بين 60 إلى 90 دقيقة، حسب احتياجاتك وطبيعة الموضوع المطروح.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>هل تقدم محاضرات عبر الإنترنت؟</h3>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="faq-answer">
+        <p>نعم، أقدم محاضرات وورش عمل عبر الإنترنت بالإضافة إلى المحاضرات الحضورية. يمكننا مناقشة الخيار المناسب لك.</p>
+      </div>
+    </div>
+    
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>كم من الوقت يستغرق الرد على الرسائل؟</h3>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="faq-answer">
+        <p>أحرص على الرد على جميع الرسائل خلال 24 إلى 48 ساعة. في حالة الاستفسارات العاجلة، يمكنك التواصل معي عبر الهاتف.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Map Section (Optional) -->
+<section class="map-section fade-in">
+  <h2>موقعي</h2>
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462565.9144586442!2d54.89782!3d25.076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+
+<footer>
+  <div class="social-links">
+    <a href="https://x.com/awadaldarmaki" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://www.instagram.com/awadaldarmaki" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.youtube.com/results?search_query=عوض+الدرمكي" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://www.linkedin.com/in/awadaldarmaki" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  <p>© 2025 جميع الحقوق محفوظة لعوض الدرمكي</p>
+</footer>
+
+<button class="dark-toggle" id="darkToggle" aria-label="تبديل الوضع الليلي">
+  <i class="fas fa-moon"></i>
+</button>
+
+<script src="main.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
