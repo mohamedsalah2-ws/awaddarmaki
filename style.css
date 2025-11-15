@@ -310,7 +310,7 @@ body.dark .expertise {
   margin-bottom: 4rem;
   color: var(--dark);
   position: relative;
-  display: inline-block;
+  display: ;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -397,7 +397,7 @@ body.dark .expertise {
   margin-bottom: 4rem;
   color: var(--dark);
   position: relative;
-  display: inline-block;
+  display: ;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1371,4 +1371,5 @@ body.dark .faq-question:hover {
   .social-btn {
     font-size: 0.9rem;
   }
+
 }
