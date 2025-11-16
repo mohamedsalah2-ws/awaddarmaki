@@ -912,7 +912,7 @@ body.dark .timeline-content {
 
 .stat-card {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .stat-card i {
@@ -1373,6 +1373,7 @@ body.dark .faq-question:hover {
   }
 
 }
+
 
 
 
