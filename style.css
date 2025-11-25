@@ -1371,8 +1371,61 @@ body.dark .faq-question:hover {
   .social-btn {
     font-size: 0.9rem;
   }
+/* =======================
+   Mobile Menu
+======================= */
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--dark);
+  transition: 0.3s;
+}
+
+body.dark .menu-toggle {
+  color: white;
+}
+
+/* في الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: white;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 6rem;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    transition: right 0.4s ease;
+  }
+
+  body.dark .nav-links {
+    background: #111;
+  }
+
+  .nav-links.open {
+    right: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-links a {
+    font-size: 1.3rem;
+  }
+}
 
 }
+
 
 
 
